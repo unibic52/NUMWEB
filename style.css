@@ -1,0 +1,146 @@
+h1{
+    display: flex;
+    font-size: 90px;
+    justify-content: center;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 160,
+        "EHLT" 0;
+}
+
+.c1{
+    display: flex; 
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 100,
+        "EHLT" 0;
+}
+
+.enp{
+    display: flex; 
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 100,
+        "EHLT" 0;
+
+}
+
+
+.input1{
+    display: flex; 
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 100,
+        "EHLT" 0;
+    
+}
+
+.data1{
+    margin: auto;
+    display: block;
+    width: 350px;
+    height: 100px;
+    
+}
+
+.data2{
+    margin: auto;
+    display: block;
+}
+
+
+.disp1{
+    margin: auto;
+    display: block;
+
+}
+
+.button-19 {
+  appearance: button;
+  background-color: #ff2600;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: auto;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  white-space: nowrap;
+
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #ff9900;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+.disp1{
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(255, 144, 231);
+    font-weight: bold;
+}

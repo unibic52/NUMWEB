@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NUMCRYPT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla:EDPT@150&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>NUMCRYPTER</h1>
+    </div>
+    <div >
+        <p class="c1">Select Encryption or Decryption:</p>
+    </div>
+
+    <div id="mydiv">
+        <p class="enp">Encryption</p>
+    </div>
+
+    <div id="mydiv1">
+            <p class="enp">Decryption</p>
+    </div>    
+    <script>
+        const divitem1 = document.getElementById('mydiv');
+        const divitem2 = document.getElementById('mydiv1');
+        divitem1.addEventListener('click', (e) => {
+            divclick()
+        })
+        divitem2.addEventListener('click', (e) => {
+            divclick1()
+        })
+
+        function divclick(){
+            window.location.href = "encrypt.html";
+        }
+        function divclick1(){
+            window.location.href = "decrypt.html";
+        }
+
+
+    </script>
+
+</body>
+
+
+</html>
