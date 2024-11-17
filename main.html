@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NUMCRYPT</title>
+</head>
+
+<body>
+
+    <p>Select Encryption or Decryption:</p>
+
+    <div>
+        <input type="radio"  
+               name="Encryption" 
+               value="Encryption">
+        <label for="Encryption">Encryption</label>
+    </div>
+
+    <div>
+        <input type="radio"
+               name="Encryption" 
+               value="Decryption">
+        <label for="Decryption">Decryption</label>
+    </div>
+    <button type="button" onclick="display()">
+        Submit
+    </button>
+
+
+</body>
+<script>
+    function display() { 
+        var checkRadio = document.querySelector(
+            'input[name="Encryption"]:checked');
+        let ent = "encrypt.html"
+        let det = "decrypt.html"
+        if(checkRadio != null) {
+            if(checkRadio.value == "Encryption"){
+                window.location.assign(ent);
+            }
+            else if(checkRadio.value == "Decryption"){
+                window.location.assign(det);
+            }
+        }
+        else {
+            console.log("No one selected");
+        }
+    }
+</script>
+
+</html>
